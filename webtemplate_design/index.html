@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        
+
+    <title>Hello, world!</title>
+</head>
+<style>
+    a{
+        text-decoration: none;
+    }
+    li {
+        list-style-type: none;
+    }
+
+    .num_list {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background-color: rgba(0, 0, 0, .2);
+        border-radius: 100%;
+        margin: 0 23.3px 0 0;
+        padding: 5px 2.9px 5px 3.6px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .btn_template{
+        width: max-content;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    background-color: #f47920;
+    border: none;
+    font-family: "noto sans",sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    /* margin-top: -250px; */
+    position: relative;
+    top: -200px;
+    left: 150px;
+    }
+    @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+</style>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <div class="" style="height: 700px;
+    background-image: linear-gradient(
+0deg,#3644a1,#001289); color: white ;
+ margin: auto auto 250px auto;">
+        <div class="title" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <p class="display-5">buid your own professional </p>
+            <p class="display-5"><b>Resume in just 3 sipmple steps!</b></p>
+        </div>
+        <div class="button d-flex my-4 " style="justify-content: center; align-items: center;">
+            <button class="btn btn-primary" style="width: 234px;
+            height: 59.6px;
+            padding: 17.8px 15px 19.8px;
+            border-radius: 50px;
+            background-color: #f47920; border-radius:45px;">
+                <a href="/home.html">GET STARTED TODAY</a>
+            </button>
+        </div>
+        <div class="option my-3 ">
+            <ul style="display: flex; justify-content: space-around; align-items: center; ">
+                <li><span class="num_list">1</span> Chosse A Template</li>
+                <li><span class="num_list">2</span> Enter Data</li>
+                <li><span class="num_list">3</span> Download Your Resume</li>
+            </ul>
+        </div>
+        <div class="second" style="width: 1234px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 26px 0 30px 30px;
+        border-radius: 24px;
+        box-shadow: 32px 36px 100px 0 rgb(0 0 0 / 8%);
+        background-color: #fff; color: black; ">
+            <div class="row">
+                <div class="mt-4 mb-4 col">
+                    <div class="row">
+                        <p class="resume_title" style="    width: 538px;
+                        height: 93px;
+                        margin: 0 50px 0 2px;
+                        font-family:sans-serif;
+                        font-size: 32px;
+                        font-weight: 300;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.3;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #0b132a;">Stand out from the crowd! <br> <b class="buildYourResume">Build your
+                                resume today.</b></p>
+                    </div>
+                    <div class="mt-4 ml-0 row">
+                        <div class="col-sm-1"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANASURBVHgB7ZdLThtBEIaremznpUT2DSYnwFICyg4Twjr2CfCcADaRYBVnk7DDnGDsXMDeE8Kwi4CFcwL6BrEUpER43JWqHhvZmLEZxkGJxC+N5l39dXVXVTfAvf5RISTUyzd+yQHnLQGVCMBlA3m2oo/3159DCmVu+uHia7+KjnoPBC5D2GeXvTCQWjNBiiXfzWYcH9kD0j4RdBVQ2yg6gh50HIDuQz4gpaYOjQwDgmqJ+wUA0ew9DqEeBN6tG/6x5brc+2r4G+qFur60E+uRpVW/DAwxuO04fVP5FngaUkggcgiHMreyj6wX61NBZDgIlS/uIoTmyf56FVJqFIJvdY+gPfpeXfdTLqsObTSwJ/4SxEphR+vRbyY8ItEhkcGHVjwccAcQogmP2BC1F9Cc55yYBjEBIlFivcHhqELTgDuCmABBgnJ0pnYabySFEI3NEYXOgmRNQ5ysJg3v8nB1nnzUH2DOELbt0RsGKMqZFOgrtJzWocxJrXa+7W7CnCEmQBBtyELO5M5Gnz/d0QFDDD2x+2vbXb8tBOeo/NJa80yOWJBpYpgaw+zJdR+g8XPLLSWFED2U/BSlBzcWROqJnHvORSEGZpMLbVOu2Xut83duMelwhJlLgG4sCBvXEHW5GGfo2Sdd5VPARx4z0Eo6J9BEIATYiQUhMjZaFOLyNGO9ByAZt0PRJHYhSXSgE9lG+h4PglEhIsSyTKo4Y4Wa7nLDAqOTQEgxNUA2V3Gnx4reWB45/eIFS6tNzfnCzWWUhGktzuig4UTLQ7Yp0SaTVZ8eeMHou4moYdJhmG5ID2BOsrYQqlfaiAc5+eo1EDDgyzz3oAVzkrU1qOrSBswCEWHY9wahXFxc/exDSi2uWRtFu97tm5Vr24z7WSqxAnU4uO1chKbSSVgIZTgGXo3SAZnK8YHXTgQiesHrVobxbeqXHEOqcRGGzVlAEnG5TGaDy+fmcOFNaCoSDHH/zNxgvZKQc9gzOExE7F7CtqH+kRTHTBglwX7W1qmiMs6yQSoPlpr8PQVOSN6sZcWNd3p2g4W8esPxGhErnpQSHddNzFQgQ9ktJ6kyZ8YFQ1gcVuxo30MaCY/6aNrThuFe/5X+AJCXvzrupDMKAAAAAElFTkSuQmCC"
+                                alt=".." width="28" height="28"></div>
+                        <div class="col-sm-10">Easily edit the resume online</div>
+                    </div>
+                    <div class="mt-4 row">
+                        <div class="col-sm-1"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANASURBVHgB7ZdLThtBEIaremznpUT2DSYnwFICyg4Twjr2CfCcADaRYBVnk7DDnGDsXMDeE8Kwi4CFcwL6BrEUpER43JWqHhvZmLEZxkGJxC+N5l39dXVXVTfAvf5RISTUyzd+yQHnLQGVCMBlA3m2oo/3159DCmVu+uHia7+KjnoPBC5D2GeXvTCQWjNBiiXfzWYcH9kD0j4RdBVQ2yg6gh50HIDuQz4gpaYOjQwDgmqJ+wUA0ew9DqEeBN6tG/6x5brc+2r4G+qFur60E+uRpVW/DAwxuO04fVP5FngaUkggcgiHMreyj6wX61NBZDgIlS/uIoTmyf56FVJqFIJvdY+gPfpeXfdTLqsObTSwJ/4SxEphR+vRbyY8ItEhkcGHVjwccAcQogmP2BC1F9Cc55yYBjEBIlFivcHhqELTgDuCmABBgnJ0pnYabySFEI3NEYXOgmRNQ5ysJg3v8nB1nnzUH2DOELbt0RsGKMqZFOgrtJzWocxJrXa+7W7CnCEmQBBtyELO5M5Gnz/d0QFDDD2x+2vbXb8tBOeo/NJa80yOWJBpYpgaw+zJdR+g8XPLLSWFED2U/BSlBzcWROqJnHvORSEGZpMLbVOu2Xut83duMelwhJlLgG4sCBvXEHW5GGfo2Sdd5VPARx4z0Eo6J9BEIATYiQUhMjZaFOLyNGO9ByAZt0PRJHYhSXSgE9lG+h4PglEhIsSyTKo4Y4Wa7nLDAqOTQEgxNUA2V3Gnx4reWB45/eIFS6tNzfnCzWWUhGktzuig4UTLQ7Yp0SaTVZ8eeMHou4moYdJhmG5ID2BOsrYQqlfaiAc5+eo1EDDgyzz3oAVzkrU1qOrSBswCEWHY9wahXFxc/exDSi2uWRtFu97tm5Vr24z7WSqxAnU4uO1chKbSSVgIZTgGXo3SAZnK8YHXTgQiesHrVobxbeqXHEOqcRGGzVlAEnG5TGaDy+fmcOFNaCoSDHH/zNxgvZKQc9gzOExE7F7CtqH+kRTHTBglwX7W1qmiMs6yQSoPlpr8PQVOSN6sZcWNd3p2g4W8esPxGhErnpQSHddNzFQgQ9ktJ6kyZ8YFQ1gcVuxo30MaCY/6aNrThuFe/5X+AJCXvzrupDMKAAAAAElFTkSuQmCC"
+                                alt=".." width="28" height="28"></div>
+                        <div class="col-sm-10">Keeping your Data Secure</div>
+                    </div>
+                    <div class="mt-4 row">
+                        <div class="col-sm-1"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANASURBVHgB7ZdLThtBEIaremznpUT2DSYnwFICyg4Twjr2CfCcADaRYBVnk7DDnGDsXMDeE8Kwi4CFcwL6BrEUpER43JWqHhvZmLEZxkGJxC+N5l39dXVXVTfAvf5RISTUyzd+yQHnLQGVCMBlA3m2oo/3159DCmVu+uHia7+KjnoPBC5D2GeXvTCQWjNBiiXfzWYcH9kD0j4RdBVQ2yg6gh50HIDuQz4gpaYOjQwDgmqJ+wUA0ew9DqEeBN6tG/6x5brc+2r4G+qFur60E+uRpVW/DAwxuO04fVP5FngaUkggcgiHMreyj6wX61NBZDgIlS/uIoTmyf56FVJqFIJvdY+gPfpeXfdTLqsObTSwJ/4SxEphR+vRbyY8ItEhkcGHVjwccAcQogmP2BC1F9Cc55yYBjEBIlFivcHhqELTgDuCmABBgnJ0pnYabySFEI3NEYXOgmRNQ5ysJg3v8nB1nnzUH2DOELbt0RsGKMqZFOgrtJzWocxJrXa+7W7CnCEmQBBtyELO5M5Gnz/d0QFDDD2x+2vbXb8tBOeo/NJa80yOWJBpYpgaw+zJdR+g8XPLLSWFED2U/BSlBzcWROqJnHvORSEGZpMLbVOu2Xut83duMelwhJlLgG4sCBvXEHW5GGfo2Sdd5VPARx4z0Eo6J9BEIATYiQUhMjZaFOLyNGO9ByAZt0PRJHYhSXSgE9lG+h4PglEhIsSyTKo4Y4Wa7nLDAqOTQEgxNUA2V3Gnx4reWB45/eIFS6tNzfnCzWWUhGktzuig4UTLQ7Yp0SaTVZ8eeMHou4moYdJhmG5ID2BOsrYQqlfaiAc5+eo1EDDgyzz3oAVzkrU1qOrSBswCEWHY9wahXFxc/exDSi2uWRtFu97tm5Vr24z7WSqxAnU4uO1chKbSSVgIZTgGXo3SAZnK8YHXTgQiesHrVobxbeqXHEOqcRGGzVlAEnG5TGaDy+fmcOFNaCoSDHH/zNxgvZKQc9gzOExE7F7CtqH+kRTHTBglwX7W1qmiMs6yQSoPlpr8PQVOSN6sZcWNd3p2g4W8esPxGhErnpQSHddNzFQgQ9ktJ6kyZ8YFQ1gcVuxo30MaCY/6aNrThuFe/5X+AJCXvzrupDMKAAAAAElFTkSuQmCC"
+                                alt=".." width="28" height="28"></div>
+                        <div class="col-sm-10">Instantly export your resume to a PDF </div>
+                    </div>
+                    <div class="mt-4 row">
+                        <div class="col-sm-1"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAANASURBVHgB7ZdLThtBEIaremznpUT2DSYnwFICyg4Twjr2CfCcADaRYBVnk7DDnGDsXMDeE8Kwi4CFcwL6BrEUpER43JWqHhvZmLEZxkGJxC+N5l39dXVXVTfAvf5RISTUyzd+yQHnLQGVCMBlA3m2oo/3159DCmVu+uHia7+KjnoPBC5D2GeXvTCQWjNBiiXfzWYcH9kD0j4RdBVQ2yg6gh50HIDuQz4gpaYOjQwDgmqJ+wUA0ew9DqEeBN6tG/6x5brc+2r4G+qFur60E+uRpVW/DAwxuO04fVP5FngaUkggcgiHMreyj6wX61NBZDgIlS/uIoTmyf56FVJqFIJvdY+gPfpeXfdTLqsObTSwJ/4SxEphR+vRbyY8ItEhkcGHVjwccAcQogmP2BC1F9Cc55yYBjEBIlFivcHhqELTgDuCmABBgnJ0pnYabySFEI3NEYXOgmRNQ5ysJg3v8nB1nnzUH2DOELbt0RsGKMqZFOgrtJzWocxJrXa+7W7CnCEmQBBtyELO5M5Gnz/d0QFDDD2x+2vbXb8tBOeo/NJa80yOWJBpYpgaw+zJdR+g8XPLLSWFED2U/BSlBzcWROqJnHvORSEGZpMLbVOu2Xut83duMelwhJlLgG4sCBvXEHW5GGfo2Sdd5VPARx4z0Eo6J9BEIATYiQUhMjZaFOLyNGO9ByAZt0PRJHYhSXSgE9lG+h4PglEhIsSyTKo4Y4Wa7nLDAqOTQEgxNUA2V3Gnx4reWB45/eIFS6tNzfnCzWWUhGktzuig4UTLQ7Yp0SaTVZ8eeMHou4moYdJhmG5ID2BOsrYQqlfaiAc5+eo1EDDgyzz3oAVzkrU1qOrSBswCEWHY9wahXFxc/exDSi2uWRtFu97tm5Vr24z7WSqxAnU4uO1chKbSSVgIZTgGXo3SAZnK8YHXTgQiesHrVobxbeqXHEOqcRGGzVlAEnG5TGaDy+fmcOFNaCoSDHH/zNxgvZKQc9gzOExE7F7CtqH+kRTHTBglwX7W1qmiMs6yQSoPlpr8PQVOSN6sZcWNd3p2g4W8esPxGhErnpQSHddNzFQgQ9ktJ6kyZ8YFQ1gcVuxo30MaCY/6aNrThuFe/5X+AJCXvzrupDMKAAAAAElFTkSuQmCC"
+                                alt=".." width="28" height="28"></div>
+                        <div class="col-sm-10">Proffesional and approved templates </div>
+                    </div>
+                </div>
+                <div class="col"><img src="https://internshipgate.com/static/media/mobileResume.243e37f4.png" alt="..."
+                        style="width: 530px;
+                        height: 750px;"></div>
+            </div>
+        </div>
+    </div>
+    <div class="templates_options py-4">
+        <div class="row">
+            <p class="mt-5" style="width: 1178px;
+            height: 88px;
+            margin: 0 20px 28px 210px;
+            font-family:sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 1.1;
+            text-align: center;
+            color: #1e266d;">An Array of templates <br>to choose from</p>
+        </div>
+
+        <div class="d-flex" style="max-width: 100vw;">
+            <div class="template">
+                <img src="https://internshipgate.com/static/media/Resume_template1.2bfb7451.png" alt="">
+                <button class="btn_template">
+                    Select Template
+                </button>
+            </div>
+            <div class="template" style="z-index: 1;
+            transform: translateX(-110px);
+            box-shadow: -15px 0px 5px lightgrey;">
+                <img src="https://internshipgate.com/static/media/Resume_template2.ed2bc684.png" alt="">
+                <button class="btn_template">
+                    Select Template
+                </button>
+            </div>
+            <div class="template" style="z-index: 2;
+            transform: translateX(-110px);
+            box-shadow: -15px 0px 5px lightgrey;">
+                <img src="https://internshipgate.com/static/media/Resume_template3.81984637.png" alt="">
+                <button class="btn_template">
+                    Select Template
+                </button>
+            </div>
+
+        </div>
+        <div class="d-flex" style="justify-content: center; align-items: center;">
+            <button class="btn" style="
+                    width: max-content;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    background-color: #f47920;
+    border: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px;
+    color: white;">Explore More</button>
+        </div>
+    </div>
+    <div class="student" style="background-image: url(https://internshipgate.com/static/media/Resume_bg_image.e786ca48.png);
+    width: 1419px;
+    height: 674px;
+    margin: 0px auto 0px auto;
+    padding: 32.7px 103px 2px 102px;
+    border-radius: 24px;
+    box-shadow: 32px 36px 100px 0 rgb(0 0 0 / 8%);
+    background-color: #fff;">
+
+
+        <div class="row my-4">
+            <p class="mt-5" style="
+               width: 1178px;
+    height: 88px;
+    /* margin: 0 20px 28px 210px; */
+    font-family: sans-serif;
+    font-size: 45px;
+    /* font-weight: 700; */
+    line-height: 1.1;
+    text-align: center;
+    color: #1e266d;">Trusted By Students <br><b>Around The World </b></p>
+        </div>
+        <div class="row">
+            <div class="col-sm-5">
+
+            </div>
+            <div class="col-sm-5" style="display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 100px;">
+                <div class="">
+                    <h1>Bhumika bhandari</h1>
+                </div>
+                <div class="para">
+                    <p style="font-family: sans-serif; line-height: 1.5rem;" >
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas accusantium ipsam ut asperiores
+                        eligendi fugit, at corrupti nihil deleniti ad saepe fugiat explicabo vel maxime? Laudantium aut
+                        magnam sed eaque.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="mt-0 row ">
+        <div class="p-0 col">
+            <div class="  mt-5   row ">
+                <div class="col">
+                    <div class=" footerbg1920  mt-5 row" style="overflow: hidden;">
+                        <div class="footermain footerbg1920     row">
+                            <div class="mt-5 mb-0 mr-5 column1 d-none d-sm-block col-sm-3">
+                                <div class="itemlogo ml-0 mt-4 row">
+                                    <a href="/"><img src="./img/logoend.9904dcd9.svg" class="logo_style_footer" alt="logo"></a>
+                                </div>
+                                <div class="socicon mt-3 ml-4 row row-cols-sm-9">
+                                    <div class="mt-0 col">
+                                        <a href="https://www.facebook.com/Internshipgate-104735634814921" target="_blank"><img src="./img/fb.dd6247da.svg" class="fb mr-4 ml-4" alt="logo"></a>
+                                        <a href="https://www.instagram.com/internshipgate/" target="_blank"><img src="./img/insta.214db7ee.svg" class="insta   mr-4" alt="logo"></a>
+                                        <a href="https://www.youtube.com/channel/UCyiZAORDsCJyIzTmqLZw6TA" target="_blank"><img src="./img/yt.ee22c6cc.svg" class="yt   mr-4" alt="logo"></a>
+                                        <a href="https://www.linkedin.com/company/71005402/admin/" target="_blank"><img src="./img/linkedin.371fe6a1.svg" class="linkedin  mr-0" alt="logo"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" mt-5 d-none d-sm-block col-sm-3">
+                                <h6 class="IG_COl"><b>INTERNSHIPGATE</b></h6><br>
+                                <p class="IG_COl"><a href="/AboutUs" alt="about" class="allLink" target="_blank">About Us</a></p>
+                                <p class="IG_COl"><a href="/CareerAccelerate/Global Internship" alt="career" class="allLink">Global Internship</a></p>
+                                <p class="IG_COl"><a href="/CareerAccelerate/Domestic Internship" class="allLink">Domestic Internship</a></p>
+                                <p class="IG_COl"><a href="/OnlineTraining" alt="Affilate" class="allLink">Online Training</a></p>
+                                <p class="IG_COl"><a href="/ContactUs" alt="contact" class="allLink">Contact Us</a></p>
+                                <p class="IG_COl"><a href="/Disclaimer" alt="disclaimer" class="allLink" target="_blank">Disclaimer</a></p>
+                                <p class="IG_COl"><a href="/Privacy" alt="privacy" class="allLink" target="_blank">Privacy Policy</a></p>
+                                <p class="IG_COl"><a href="/Terms" alt="terms" class="allLink" target="_blank">Terms of Service</a></p>
+                            </div>
+                            <div class="mt-5 d-none d-sm-block col-sm-3">
+                                <h6 class="Cat_COl"><b>CATEGORIES</b></h6><br>
+                                <p class="Cat_COl"><a alt="Design" class="allLink" href="">Design</a></p>
+                                <p class="Cat_COl"><a alt="coding" class="allLink" href="">Coding</a></p>
+                                <p class="Cat_COl"><a alt="Business" class="allLink" href="/Internship/Business Analytics-internship">Business Analytics</a></p>
+                                <p class="Cat_COl"><a alt="Digital" class="allLink" href="">Digital Marketing</a></p>
+                                <p class="Cat_COl"><a alt="Finance" class="allLink" href="">Finance</a></p>
+                                <p class="Cat_COl"><a alt="Content" class="allLink" href="">Content Writing</a></p>
+                                <p class="Cat_COl"><a alt="Machine" class="allLink" href="">Marketing</a></p>
+                            </div>
+                            <div class="mt-5 d-none d-sm-block  col-sm-2">
+                                <h6 class="Loc_Col "><b>LOCATIONS</b></h6><br>
+                                <p class="Loc_Col"><a alt="banglore" class="allLink" href="">Bangalore</a></p>
+                                <p class="Loc_Col"><a alt="pune" class="allLink" href="">Pune</a></p>
+                                <p class="Loc_Col"><a alt="Mumbai" class="allLink" href="">Mumbai</a></p>
+                                <p class="Loc_Col"><a alt="delhi" class="allLink" href="">Delhi NCR</a></p>
+                                <p class="Loc_Col"><a alt="kolkata" class="allLink" href="">Kolkata</a></p>
+                                <p class="Loc_Col mb-5"><a alt="Hyderabad" class="allLink" href="">Hyderabad</a></p>
+                            </div>
+                            <div class="footend  row">
+                                <div class="copyright d-none d-sm-block ml-5 mt-3 col">@Copyright 2021 - INTERNSHIPGATE, A Unit of ISAN DATA SYSTEMS </div>
+                                <div class="design d-none d-sm-block  mr-5 mt-3 col">Powered by ISAN DATA SYSTEMS and RSQUARED LABS </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
